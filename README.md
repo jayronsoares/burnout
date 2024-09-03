@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-O objetivo principal desta ferramenta é ajudar as pessoas a descobrir se estão no caminho para a síndrome de burnout. Através de uma série de perguntas, a ferramenta avalia a probabilidade de burnout forte ou leve e fornece recomendações baseadas na análise.
+Burnout é um problema urgente que pode afetar qualquer pessoa, levando à diminuição da produtividade e do bem-estar geral. A Burnout Assessment Tool visa ajudar você a identificar se você pode estar no caminho para o burnout e oferece recomendações personalizadas com base em uma análise completa de suas respostas.
 
 ## Funcionalidades
 
