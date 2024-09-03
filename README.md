@@ -1,4 +1,4 @@
-# Ferramenta de Avaliação de Burnout
+# Avaliação de Burnout
 
 ## Objetivo
 
