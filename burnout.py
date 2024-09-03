@@ -161,8 +161,7 @@ def principal():
 
     # Adicionar botão de Atualizar para recarregar a página
     if st.button("Atualizar"):
-        st.rerun()
-    
+        st.experimental_rerun()    
     # Adicionar rodapé com crédito
     st.markdown(
     """
