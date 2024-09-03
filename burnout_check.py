@@ -76,7 +76,7 @@ def plotar_probabilidades(forte, fraco):
 
 # Interface Streamlit para coletar entrada do usuário
 def principal():
-    st.title("Ferramenta de Avaliação de Burnout")
+    st.title("Avaliação de Burnout")
     st.markdown(
         """
         <style>
@@ -100,7 +100,7 @@ def principal():
         unsafe_allow_html=True
     )
     
-    st.markdown("### Por favor, responda às seguintes perguntas:")
+    st.markdown("#### Por favor, responda às seguintes perguntas:")
 
     # Coletando respostas do usuário com valores iniciais neutros ou padrão
     respostas = [
@@ -165,12 +165,25 @@ def principal():
     
     # Adicionar rodapé com crédito
     st.markdown(
-        """
-        <div class="footer">
-            Desenvolvido por Jayron Soares
-        </div>
-        """,
-        unsafe_allow_html=True
+    """
+    <style>
+    .footer {
+        font-size: 12px;
+        text-align: right;
+        padding: 10px;
+        color: #555;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color: #f1f1f1;
+        width: auto;
+    }
+    </style>
+    <div class="footer">
+        Desenvolvido por Jayron Soares
+    </div>
+    """,
+    unsafe_allow_html=True
     )
 
 if __name__ == "__main__":
